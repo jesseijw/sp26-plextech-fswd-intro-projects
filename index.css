@@ -46,3 +46,123 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+
+.wrapper1 {
+  background-color: red;
+}
+
+.wrapper2 {
+  background-color: blue;
+}
+
+.wrapper3{
+  display: flex;
+  justify-content: space-between; 
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+.wrapper3 .wrapper1{
+  width: 80px;   
+  background-color: red;
+}
+
+.wrapper3 .wrapper2{
+  width: 80px;      
+  background-color: blue;
+}
+
+
+.wrapper4 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+.wrapper4 .wrapper1 {
+  flex-grow: 1; 
+}
+
+.wrapper4 .wrapper2 {
+  width: 80px; 
+}
+
+.wrapper5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+.wrapper5 .wrapper1 {
+  width: 60px;
+  height: 60px;
+}
+
+.wrapper6 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+.wrapper6 .redSide {
+  flex: 1;                 
+  background-color: red;
+}
+
+.wrapper6 .blueCenter {
+  width: 80px;            
+  background-color: blue;
+}
+.wrapper7 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+.wrapper7 .wrapper1 {
+  width: 100px;
+  background-color: red;
+}
+
+.wrapper7 .wrapper2 {
+  flex: 1;
+  background-color: transparent;
+}
+
+.wrapper8 {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+.wrapper8 .wrapper1,
+.wrapper8 .wrapper2 {
+  width: 80px;
+  background-color: orange;
+}
+
+.wrapper9 {
+  display: flex;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.wrapper9 .wrapper1,
+.wrapper9 .wrapper3 {
+  flex: 1;                 
+  background-color: orange;
+}
+
+.wrapper9 .wrapper2 {
+  width: 100px;           
+  background-color: green;
+}
